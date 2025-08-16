@@ -1,0 +1,63 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.10.35013.160
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{32447478-74C9-4B1B-98C0-12639F4A1671}"
+	ProjectSection(SolutionItems) = preProject
+		docker-compose.yml = docker-compose.yml
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CurrencyService.Api", "CurrencyService.Api\CurrencyService.Api.csproj", "{F587A971-04EC-4B25-B434-C28BCA85F7C1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CurrencyService.Domain", "CurrencyService.Domain\CurrencyService.Domain.csproj", "{D6A8F8F6-DCD7-4F06-A3D2-DB5A5169739D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CurrencyService.Application", "CurrencyService.Application\CurrencyService.Application.csproj", "{7B70A4B3-4117-4FD3-99DB-B35055F4DAA3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CurrencyService.Infrasturucture", "CurrencyService.Infrasturucture\CurrencyService.Infrasturucture.csproj", "{4F0DD76D-864B-458B-8CB8-46EBFDD755B0}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "tests", "tests", "{0AB3BF05-4346-4AA6-1389-037BE0695223}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CurrencyService.Tests", "tests\CurrencyServiceTests\CurrencyService.Tests.csproj", "{B9AAF9F7-8505-49E7-A370-1A67AAD42319}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F587A971-04EC-4B25-B434-C28BCA85F7C1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F587A971-04EC-4B25-B434-C28BCA85F7C1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F587A971-04EC-4B25-B434-C28BCA85F7C1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F587A971-04EC-4B25-B434-C28BCA85F7C1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D6A8F8F6-DCD7-4F06-A3D2-DB5A5169739D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D6A8F8F6-DCD7-4F06-A3D2-DB5A5169739D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D6A8F8F6-DCD7-4F06-A3D2-DB5A5169739D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D6A8F8F6-DCD7-4F06-A3D2-DB5A5169739D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7B70A4B3-4117-4FD3-99DB-B35055F4DAA3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7B70A4B3-4117-4FD3-99DB-B35055F4DAA3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7B70A4B3-4117-4FD3-99DB-B35055F4DAA3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7B70A4B3-4117-4FD3-99DB-B35055F4DAA3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4F0DD76D-864B-458B-8CB8-46EBFDD755B0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4F0DD76D-864B-458B-8CB8-46EBFDD755B0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4F0DD76D-864B-458B-8CB8-46EBFDD755B0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4F0DD76D-864B-458B-8CB8-46EBFDD755B0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B9AAF9F7-8505-49E7-A370-1A67AAD42319}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B9AAF9F7-8505-49E7-A370-1A67AAD42319}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B9AAF9F7-8505-49E7-A370-1A67AAD42319}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B9AAF9F7-8505-49E7-A370-1A67AAD42319}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{F587A971-04EC-4B25-B434-C28BCA85F7C1} = {32447478-74C9-4B1B-98C0-12639F4A1671}
+		{D6A8F8F6-DCD7-4F06-A3D2-DB5A5169739D} = {32447478-74C9-4B1B-98C0-12639F4A1671}
+		{7B70A4B3-4117-4FD3-99DB-B35055F4DAA3} = {32447478-74C9-4B1B-98C0-12639F4A1671}
+		{4F0DD76D-864B-458B-8CB8-46EBFDD755B0} = {32447478-74C9-4B1B-98C0-12639F4A1671}
+		{B9AAF9F7-8505-49E7-A370-1A67AAD42319} = {0AB3BF05-4346-4AA6-1389-037BE0695223}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {337D2C18-5F04-43EF-8E43-66B0FBE9A63D}
+	EndGlobalSection
+EndGlobal
